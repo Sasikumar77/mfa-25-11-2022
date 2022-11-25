@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Barlow:wght@300;400&family=Michroma&family=Outfit:wght@100;500&family=Rubik:wght@300&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Barlow', sans-serif;
+}
+header{
+    background-image: url(../images/desktop/image-header.jpg);
+   
+    height: 870px;
+    background-size: cover;
+    background-position: center;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+   
+    margin-top: 50px;
+    
+}
+ul{
+    width: 500px;
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+ul a{
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+}
+.but-1{
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 15px;
+    width: 100px;
+}
+.logo{
+    margin-left: 40px;
+}
+.head{
+    text-align: center;
+    margin-top: 170px;
+    font-size: 50px;
+    color: white;
+}
+.arrow{
+    position: absolute;
+    top: 370px;
+    left: 700px;
+}
+.top{
+   display: flex;
+   
+}
+.top-1{
+   
+    
+    width: 50%;
+}
+.top-1 h1,p{
+    
+    width: 400px;
+    margin-top: 30px;
+    
+}
+.item-1{
+    margin-top: 200px;
+    margin-left: 140px;
+    
+}
+
+.top-1 p{
+    font-size: 20px;
+    width: 470px;
+}
+.mid{
+    display: flex;
+}
+.bot{
+   
+    height: 580px;
+    display: flex;
+}
+.bot-1{
+   
+    width: 50%;
+    height: 580px;
+    background-image: url(../images/desktop/image-graphic-design.jpg);
+    
+}
+.item-2{
+    text-align: center;
+   
+    width: 450px;
+    margin-top: 400px;
+    margin-left: 140px;
+    font-size: 20px;
+}
+.bot-2{
+   
+    width: 50%;
+    height: 580px;
+    background-image: url(../images/desktop/image-photography.jpg);
+}
+.profile-1{
+    width: 100%;
+   
+    height: 800px;
+    text-align: center;
+    margin-top: 80px;
+    
+}
+.prof{
+    
+    height: 400px;
+    width: 30%;
+}
+.profile img{
+   border-radius: 50%;
+}
+.profile{
+    display: flex;
+}
